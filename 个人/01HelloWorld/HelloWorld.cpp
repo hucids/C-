@@ -5,7 +5,7 @@ using namespace std;  // 使用std命名空间
 int main()  // main()程序开始执行的窗口
 {
     cout << "Hello World!\n"; // 不用加前缀std::
-    // 还可以写成 cout << "Hello World!" << endl; endl作用为换行
+    // 还可以写成 cout << "Hello World!" << endl; endl作用为换行 <<作用为把右边的内容输出到左边的cout中
     return 0;
 }
 // 按下ctrl + F5 运行文件
