@@ -6,7 +6,7 @@
    布尔类型：bool
    空类型：void
 */
-// 基本类型可以用一个或多个类型修饰符修饰
+// 基本类型可以用一个或多个类型修饰符修饰 具体见05
 // signed(有符号-默认), unsigned(无符号), short(短整型), long(长整型), const(常量 不可修改), volatile(易变的), mutable(可变的), static(静态的), extern(外部的), register(寄存器的)
 signed int a = -1; // 有符号整型
 unsigned int b = 2; // 无符号整型
