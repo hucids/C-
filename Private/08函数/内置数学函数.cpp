@@ -1,6 +1,7 @@
-// 要引用数学头文件 <cmath>
 #include <iostream>
+// 要引用数学头文件 <cmath>
 #include <cmath>
+// 使用数学常数要用头文件<numbers>
 #include <numbers>
 using namespace std;
 
@@ -18,6 +19,11 @@ int main(){
     */
 
     // 要使用一些数学常数则要使用头文件<numbers>
+    /*
+    π std::numbers::pi
+    e std::numbers::e
+    黄金比例 φ std::numbers::phi
+    */
     cout << "pi = " << std::numbers::pi << endl;
     return 0;
 }
